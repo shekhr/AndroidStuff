@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NetworkAvailability</string>
+    <string name="connected">Connected to Internet</string>
+    <string name="not_connected">Not connected to Internet</string>
+
+
+</resources>
