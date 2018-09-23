@@ -2,8 +2,8 @@
 
 Some android examples:
 
-1. InputValidations
-2. HttpRequest
-3. JsonParsing
-4. NetworkAvailablity
+1. Input Validations
+2. Http Request
+3. Json Parsing
+4. Network Availablity
 5. SSL Handshake Bypass
