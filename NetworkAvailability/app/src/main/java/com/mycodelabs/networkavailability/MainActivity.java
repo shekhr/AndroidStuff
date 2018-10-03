@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
             NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
             if (networkInfo != null && (networkInfo.isAvailable() || networkInfo.isConnectedOrConnecting())) {
                 if(networkInfo.getState()== NetworkInfo.State.CONNECTED){
-                    textView.setText(R.string.connected);
-                    textView.setBackgroundColor(Color.GREEN);
-                }
+                    textView.setText(R.string.connected); // setting the text as Connected if our phone is connected to a network.
+                    textView.setBackgroundColor(Color.GREEN); // setting the background color of the textView as green if our phone is connected to a network.
+                } 
 
                 // record the fact that there is live connection
             }else {
