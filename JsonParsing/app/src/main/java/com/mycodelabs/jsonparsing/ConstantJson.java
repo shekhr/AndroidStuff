@@ -3,6 +3,7 @@ package com.mycodelabs.jsonparsing;
 /**
  * Created by shekharc on 22-Jun-16.
  */
+// A dummy JSON response.
 public class ConstantJson {
 
     public static final String json="{\n" +
