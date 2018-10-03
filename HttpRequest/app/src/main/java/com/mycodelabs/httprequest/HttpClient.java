@@ -37,14 +37,14 @@ public class HttpClient {
             int responseCode = con.getResponseCode();
             //String contentType=con.getContentType();
             Log.d("HttpRequest", "Status Code :" + responseCode);
-            if (responseCode == 200) {
-                InputStream stream = con.getInputStream();
+            if (responseCode == 200) { // if the response code = 200, it means that the service hit the server successfully and got some response in return.
+                InputStream stream = con.getInputStream(); // the response from the server is in the form of stream and we get it using InputStream.
                 InputStreamReader isReader = new InputStreamReader(stream);
 
                 //put output stream into activity_details string
                 br = new BufferedReader(isReader);
                 String inputLine;
-                while ((inputLine = br.readLine()) != null) {
+                while ((inputLine = br.readLine()) != null) { // we get the response data in inputline line by line and we append the data in the response StringBuffer object
                     response.append(inputLine);
                 }
                 return response.toString();
