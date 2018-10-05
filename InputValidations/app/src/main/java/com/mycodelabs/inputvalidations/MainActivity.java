@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         if(name.isEmpty()) // this method returns true if the username is empty.
             username.setError("Required field");
 
-        String pass=password.getText().toString();
+        String pass=password.getText().toString(); // getText() gets the password from the edit box and toString() method will convert the text into String datatype.
         if (!pass.isEmpty()) {
             if (isSpecialCharacter(pass, PASSWORD))
                 password.setError("Do not use spaces");
