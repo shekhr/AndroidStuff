@@ -42,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         String name= username.getText().toString().trim();
         if (!name.isEmpty()){
-            if(isSpecialCharacter(name,USERNAME))
+            if(isSpecialCharacter(name,USERNAME)) //this method returns true if there is any special character in the username.
                 username.setError("Special character found");
         }
-        if(name.isEmpty())
+        if(name.isEmpty()) // this method returns true if the username is empty.
             username.setError("Required field");
 
         String pass=password.getText().toString();
