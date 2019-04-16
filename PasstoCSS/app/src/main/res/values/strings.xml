@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PasstoCSS</string>
+    <string name="classPas">Class Pass</string>
+    <string name="username">Username :</string>
+    <string name="password">Password :</string>
+    <string name="passToCss">Passport to CSS</string>
+    <string name="go">Go</string>
+    <string name="needAccoutn">Need an account ?</string>
+    <string name="forgotPass">Forgot your password ?</string>
+    <string name="name">Name :</string>
+    <string name="email">Email :</string>
+    <string name="confirmPass">Confirm Password :</string>
+    <string name="school">School :</string>
+    <string name="favThing">Favorite thing to do on a computer :</string>
+    <string name="myUser">My Username :</string>
+    <string name="myPass">My Password :</string>
+    <string name="goLoggin">Go to Logging Activity</string>
+    <string name="myCred">My Credentials</string>
+    <string name="abtMe">About Me</string>
+
+</resources>
